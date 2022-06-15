@@ -34,8 +34,8 @@ class User:
         with open("user.txt", "r") as file:
             data = file.readlines()
             user_data = [self.email, self.password]
-            for user_data in data:
-                if user_data == user_data.strip().split(","):
+            for u_data in data:
+                if user_data == u_data.strip().split(","):
                     return self
             return
 
