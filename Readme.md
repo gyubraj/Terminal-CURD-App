@@ -24,3 +24,14 @@ Open Terminal and run following commands.
     python main.py
 
 ```
+
+
+
+## Project Features (CURD)
+
+1. User Registration (CREATE)
+2. User Login (READ)
+3. Change Password (UPDATE)
+4. Delete Account (DELETE)
+5. Email sending using Thread
+6. Email and Password Validator using regular expressions
